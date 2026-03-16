@@ -1,0 +1,487 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "蜜雪冰城A",
+      "address": "北京市朝阳区某街道1号",
+      "phone": "123-456-7890",
+      "x": -10,
+      "y": 10
+    },
+    {
+      "id": 2,
+      "name": "蜜雪冰城B",
+      "address": "上海市浦东新区yyy",
+      "phone": "098-765-4321",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "id": 3,
+      "name": "蜜雪冰城C",
+      "address": "广州市天河区zzz",
+      "phone": "666-666-6666",
+      "x": 10,
+      "y": -10
+    }
+  ],
+  "types": [
+    {
+      "name": "蜜雪经典，醇香奶茶",
+      "products": [
+        {
+          "id": 1,
+          "name": "珍珠奶茶",
+          "specs": "经典口味",
+          "price": 6.00,
+          "banner": "https://www.mxbc.com/images/8-%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6.jpg",
+          "storeId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 2,
+          "name": "椰奶冻",
+          "specs": "清凉解渴",
+          "price": 14.00,
+          "banner": "https://www.mxbc.com/images/1bfe0036a83ca9ba6427f7f775d888a9.jpg",
+          "storeId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 3,
+          "name": "原叶红茶",
+          "specs": "清爽解渴",
+          "price": 7.00,
+          "banner": "https://www.mxbc.com/images/2-%E7%BA%A2%E8%8C%B6.jpg",
+          "storeId": 2,
+          "categoryId": 1
+        },
+        {
+          "id": 4,
+          "name": "冰鲜柠檬水",
+          "specs": "酸爽开胃",
+          "price": 4.00,
+          "banner": "https://ww4.sinaimg.cn/mw690/958a6a55ly1hq92mrn4r1j22c819qkjl.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 5,
+          "name": "芒果汁",
+          "specs": "新鲜榨制",
+          "price": 16.00,
+          "banner": "https://www.mxbc.com/images/17e6d563719cbf92614ef69f2e2c8311.jpg",
+          "storeId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 6,
+          "name": "黑糖珍珠奶茶",
+          "specs": "健康养颜",
+          "price": 14.00,
+          "banner": "https://www.mxbc.com/images/4-%E9%BB%91%E7%B3%96%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6.jpg",
+          "storeId": 2,
+          "categoryId": 1
+        },
+        {
+          "id": 7,
+          "name": "葡萄汁",
+          "specs": "天然甜美",
+          "price": 13.00,
+          "banner": "https://img1.baidu.com/it/u=2552166668,3101011037&fm=253&fmt=auto&app=120&f=JPEG?w=1148&h=800",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 8,
+          "name": "三拼霸霸奶茶",
+          "specs": "天然甜美",
+          "price": 8.00,
+          "banner": "https://img12.360buyimg.com/n1/s450x450_jfs/t1/219705/39/49323/130289/67481a45F86cc93da/96c5ba7704b218a3.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 9,
+          "name": "芝士奶盖红茶",
+          "specs": "天然甜美",
+          "price": 10.00,
+          "banner": "https://www.mxbc.com/images/1-%E8%8A%9D%E5%A3%AB%E5%A5%B6%E7%9B%96%E7%BA%A2%E8%8C%B6.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 10,
+          "name": "芝士奶盖绿茶",
+          "specs": "天然甜美",
+          "price": 10.00,
+          "banner": "https://www.mxbc.com/images/5-%E8%8A%9D%E5%A3%AB%E5%A5%B6%E7%9B%96%E7%BB%BF%E8%8C%B6.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 10,
+          "name": "满杯百香果",
+          "specs": "天然鲜美",
+          "price": 11.00,
+          "banner": "https://www.mxbc.com/images/1-%E6%BB%A1%E6%9D%AF%E7%99%BE%E9%A6%99%E6%9E%9C.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 11,
+          "name": "草莓啵啵",
+          "specs": "天然鲜美",
+          "price": 9.00,
+          "banner": "https://www.mxbc.com/images/f3e6a20d1adf3bdf2a3831a86dfe903d.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 12,
+          "name": "芋圆葡萄",
+          "specs": "天然鲜美",
+          "price": 9.00,
+          "banner": "https://www.mxbc.com/images/c27e44ef238b14fe10ba5d9bdf3be684.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 13,
+          "name": "蜜桃四季春",
+          "specs": "天然鲜美",
+          "price": 9.00,
+          "banner": "https://www.mxbc.com/images/81173fe0e71bf63948cf5a4955fe9f48.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 14,
+          "name": "港式杨枝甘露",
+          "specs": "天然鲜美",
+          "price": 10.00,
+          "banner": "https://www.mxbc.com/images/17e6d563719cbf92614ef69f2e2c8311.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        },
+        {
+          "id": 15,
+          "name": "布丁奶茶",
+          "specs": "清醇美味",
+          "price": 10.00,
+          "banner": "https://www.mxbc.com/images/00482db280aedf17cdf72589ac422053.jpg",
+          "storeId": 3,
+          "categoryId": 1
+        }
+      ]
+    },
+    {
+      "name": "零食茶包",
+      "products": [
+        {
+          "id": 16,
+          "name": "炸鸡块",
+          "specs": "香脆可口",
+          "price": 20.00,
+          "banner": "https://img0.baidu.com/it/u=587572891,845670223&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500",
+          "storeId": 1,
+          "categoryId": 2
+        },
+        {
+          "id": 17,
+          "name": "薯条",
+          "specs": "外焦里嫩",
+          "price": 15.00,
+          "banner": "https://img0.baidu.com/it/u=217845955,1328635019&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500",
+          "storeId": 2,
+          "categoryId": 2
+        },
+        {
+          "id": 18,
+          "name": "蛋挞",
+          "specs": "甜而不腻",
+          "price": 8.00,
+          "banner": "https://img0.baidu.com/it/u=163196274,312795502&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
+          "storeId": 3,
+          "categoryId": 2
+        },
+        {
+          "id": 19,
+          "name": "鸡翅",
+          "specs": "鲜香多汁",
+          "price": 18.00,
+          "banner": "https://img1.baidu.com/it/u=1748631387,3211546238&fm=253&fmt=auto&app=138&f=JPEG?w=607&h=444",
+          "storeId": 1,
+          "categoryId": 2
+        },
+        {
+          "id": 20,
+          "name": "小笼包",
+          "specs": "皮薄馅大",
+          "price": 10.00,
+          "banner": "https://img2.baidu.com/it/u=444502316,2393151450&fm=253&fmt=auto&app=120&f=JPEG?w=1042&h=800",
+          "storeId": 2,
+          "categoryId": 2
+        },
+        {
+          "id": 21,
+          "name": "烤鱼串",
+          "specs": "麻辣鲜香",
+          "price": 16.00,
+          "banner": "https://img0.baidu.com/it/u=66966429,1756762293&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
+          "storeId": 3,
+          "categoryId": 2
+        },
+        {
+          "id": 22,
+          "name": "糖葫芦",
+          "specs": "酸甜可口",
+          "price": 12.00,
+          "banner": "https://img0.baidu.com/it/u=3778151156,295587407&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
+          "storeId": 1,
+          "categoryId": 2
+        },
+        {
+          "id": 23,
+          "name": "肉夹馍",
+          "specs": "肉质鲜美",
+          "price": 14.00,
+          "banner": "https://img2.baidu.com/it/u=4252531398,2931548516&fm=253&fmt=auto&app=120&f=JPEG?w=754&h=500",
+          "storeId": 2,
+          "categoryId": 2
+        },
+        {
+          "id": 24,
+          "name": "煎饼果子",
+          "specs": "香脆可口",
+          "price": 10.00,
+          "banner": "https://img2.baidu.com/it/u=2006007138,3555586685&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=982",
+          "storeId": 3,
+          "categoryId": 2
+        },
+        {
+          "id": 25,
+          "name": "奥利奥雪王大圣代",
+          "specs": "天然甜美",
+          "price": 8.00,
+          "banner": "https://img12.360buyimg.com/n1/s450x450_jfs/t1/182809/15/52320/192322/67481a1eF87f41cd7/e2ebedba591b5e7d.jpg.avif",
+          "storeId": 3,
+          "categoryId": 1
+        }
+      ]
+    },
+    {
+      "name": "饱腹主食",
+      "products": [
+        {
+          "id":26,
+          "name": "牛肉面",
+          "specs": "鲜香浓郁",
+          "price": 25.00,
+          "banner": "https://img2.baidu.com/it/u=322184345,2754540529&fm=253&fmt=auto&app=120&f=JPEG?w=519&h=500",
+          "storeId": 1,
+          "categoryId": 3
+        },
+        {
+          "id": 27,
+          "name": "虾仁蛋炒饭",
+          "specs": "粒粒分明",
+          "price": 20.00,
+          "banner": "https://img0.baidu.com/it/u=2197364154,3595109904&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
+          "storeId": 2,
+          "categoryId": 3
+        },
+        {
+          "id": 28,
+          "name": "盖浇饭",
+          "specs": "营养丰富",
+          "price": 22.00,
+          "banner": "https://img0.baidu.com/it/u=4262934835,2024726409&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500",
+          "storeId": 3,
+          "categoryId": 3
+        },
+        {
+          "id": 29,
+          "name": "拉丝披萨",
+          "specs": "外酥里嫩",
+          "price": 30.00,
+          "banner": "https://img1.baidu.com/it/u=3601851573,3546521228&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
+          "storeId": 1,
+          "categoryId": 3
+        },
+        {
+          "id": 30,
+          "name": "汉堡包",
+          "specs": "美味可口",
+          "price": 18.00,
+          "banner": "https://img2.baidu.com/it/u=2592653602,3635084853&fm=253&fmt=auto&app=138&f=JPEG?w=666&h=500",
+          "storeId": 2,
+          "categoryId": 3
+        },
+        {
+          "id": 31,
+          "name": "麻辣烫",
+          "specs": "麻辣鲜香",
+          "price": 20.00,
+          "banner": "https://img0.baidu.com/it/u=96242468,1278360936&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500",
+          "storeId": 3,
+          "categoryId": 3
+        },
+        {
+          "id": 32,
+          "name": "羊肉泡馍",
+          "specs": "软糯香浓",
+          "price": 25.00,
+          "banner": "https://img1.baidu.com/it/u=3846245284,1414141518&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500",
+          "storeId": 1,
+          "categoryId": 3
+        },
+        {
+          "id": 33,
+          "name": "炸酱面",
+          "specs": "地道京味",
+          "price": 18.00,
+          "banner": "https://img1.baidu.com/it/u=1141114085,2646979858&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800",
+          "storeId": 2,
+          "categoryId": 3
+        },
+        {
+          "id": 34,
+          "name": "担担面",
+          "specs": "麻辣鲜香",
+          "price": 15.00,
+          "banner": "https://img0.baidu.com/it/u=4268911322,1537264808&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
+          "storeId": 3,
+          "categoryId": 3
+        },
+        {
+          "id": 35,
+          "name": "刀削面",
+          "specs": "筋道爽滑",
+          "price": 19.00,
+          "banner": "https://img1.baidu.com/it/u=290426188,578234076&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
+          "storeId": 1,
+          "categoryId": 3
+        }
+      ]
+    },
+    {
+      "name": "甜品系列",
+      "products": [
+        {
+          "id": 27,
+          "name": "提拉米苏",
+          "specs": "浓郁香甜",
+          "price": 25.00,
+          "banner": "https://img0.baidu.com/it/u=3561106005,2199148114&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
+          "storeId": 1,
+          "categoryId": 4
+        },
+        {
+          "id": 28,
+          "name": "芝士蛋糕",
+          "specs": "奶香十足",
+          "price": 28.00,
+          "banner": "https://img0.baidu.com/it/u=1507805432,1948555937&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
+          "storeId": 2,
+          "categoryId": 4
+        },
+        {
+          "id": 29,
+          "name": "抹茶冰淇淋",
+          "specs": "清新解腻",
+          "price": 4.00,
+          "banner": "https://img2.baidu.com/it/u=3609411938,2266481769&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
+          "storeId": 3,
+          "categoryId": 4
+        },
+        {
+          "id": 30,
+          "name": "红豆汤圆",
+          "specs": "Q弹软糯",
+          "price": 12.00,
+          "banner": "https://img1.baidu.com/it/u=3633286112,2174498979&fm=253&fmt=auto?w=800&h=1067",
+          "storeId": 1,
+          "categoryId": 4
+        },
+        {
+          "id": 31,
+          "name": "芒果慕斯",
+          "specs": "口感细腻",
+          "price": 22.00,
+          "banner": "https://q8.itc.cn/images01/20240215/e876fd1c68b344f7884c1c885a456e7d.jpeg",
+          "storeId": 2,
+          "categoryId": 4
+        },
+        {
+          "id": 32,
+          "name": "绿豆糕",
+          "specs": "清甜爽口",
+          "price": 10.00,
+          "banner": "https://img1.baidu.com/it/u=1331067493,53762768&fm=253&fmt=auto&app=138&f=JPEG?w=542&h=500",
+          "storeId": 3,
+          "categoryId": 4
+        }
+      ]
+    },
+    {
+      "name": "清爽水果",
+      "products": [
+        {
+          "id": 33,
+          "name": "正宗天津沙窝水果凤梨冰糖心萝卜新鲜脆甜",
+          "specs": "新鲜脆甜",
+          "price": 28.00,
+          "banner": "https://gd1.alicdn.com/imgextra/i2/1671614185/O1CN01iUhKi51gmmKMBhLUl_!!1671614185.jpg_400x400.jpg",
+          "storeId": 1,
+          "categoryId": 5
+        },
+        {
+          "id": 34,
+          "name": "海南三亚黄肉菠萝蜜新鲜水果波罗蜜",
+          "specs": "香甜多汁",
+          "price": 26.00,
+          "banner": "https://gw.alicdn.com/imgextra/i1/2873292949/O1CN01SuFguH1Xegn5ERyXa_!!0-item_pic.jpg_Q75.jpg_.webp",
+          "storeId": 2,
+          "categoryId": 5
+        },
+        {
+          "id": 35,
+          "name": "云南紫皮无花果鲜果孕妇水果糖包子",
+          "specs": "维生素丰富",
+          "price": 10.00,
+          "banner": "https://gw.alicdn.com/imgextra/i2/3083182657/O1CN0178tFBq1VUx7vO68cy_!!0-item_pic.jpg_Q75.jpg_.webp",
+          "storeId": 3,
+          "categoryId": 5
+        },
+        {
+          "id": 36,
+          "name": "新鲜正宗永春芦柑",
+          "specs": "多汁甜美",
+          "price": 12.00,
+          "banner": "https://gd3.alicdn.com/imgextra/i1/2845448227/O1CN01oNvJ7D2Ae1EK1EnjU_!!2845448227.jpg_400x400.jpg",
+          "storeId": 1,
+          "categoryId": 5
+        },
+        {
+          "id": 37,
+          "name": "山地高原新鲜蓝莓王",
+          "specs": "绿色护眼",
+          "price": 15.00,
+          "banner": "https://gw.alicdn.com/imgextra/i2/3246497435/O1CN01fKLnFv24nHVayzj8F_!!3246497435.jpg_Q75.jpg_.webp",
+          "storeId": 2,
+          "categoryId": 5
+        },
+        {
+          "id": 38,
+          "name": "乐鲜果园智利车厘子桑提娜黑珍珠",
+          "specs": "多汁美味",
+          "price": 10.00,
+          "banner": "https://gd4.alicdn.com/imgextra/i4/93978333/O1CN01i1P4Kx2BQZDGCIiX8_!!93978333.jpg_400x400.jpg",
+          "storeId": 3,
+          "categoryId": 5
+        }
+      ]
+    }
+  ]
+}
