@@ -1,19 +1,19 @@
-# package
+# Vue 前端项目
+基于 Vue2 开发的完整前端项目，包含路由、组件、交互与页面逻辑。
+注意，此项目仿照蜜雪冰城小程序制作，且上传内容不包含依赖，使用前请自行甄别。
 
-## Project setup
-```
+## 技术栈
+- Vue 2
+- Vue Router
+- JavaScript
+- CSS / Less
+
+## 核心功能
+- 路由跳转与页面切换
+- 组件化开发与复用
+- 数据渲染、表单、列表、弹窗
+- 响应式布局适配
+
+## 运行方式
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
